@@ -1,0 +1,5 @@
+node_modules
+librtpkcs11ecp_1.4.5.0-1_amd64.deb
+libpkcs11gost-engine.so
+*.pdf
+*.sig

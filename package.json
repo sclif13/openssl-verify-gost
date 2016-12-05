@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "verify gost signature",
+  "main": "index.js",
+  "scripts": {
+    "debug": "DEBUG=express:* node index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "email": "sclif13@gmail.com",
+    "name": "Opryshko Alexandr"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "connect-multiparty": "^2.0.0",
+    "express": "^4.14.0",
+    "openssl-wrapper": "^0.3.4"
+  }
+}
